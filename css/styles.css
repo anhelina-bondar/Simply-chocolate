@@ -1,0 +1,289 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fafafa;
+  color: #111;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* ========= HEADER ============ */
+.header {
+}
+
+.header-nav {
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+.logo .accent-logo {
+  font-style: italic;
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.header-list-link:hover,
+.header-list-link:focus {
+  color: #fd9222;
+}
+
+/* ============ MAIN ============ */
+
+/* --------------SECTION 1 ------------ */
+
+.hero {
+  background-color: #1e1823;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background-color: #fd9222;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.hero-anchor-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-scroll-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+/* --------------SECTION 2 ------------ */
+
+.features {
+  background-color: #1e1823;
+}
+.features-list {
+}
+.features-list-item {
+}
+.features-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+.features-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* --------------SECTION 3 ------------ */
+
+.taste-section {
+}
+
+.taste-title .accent {
+  color: #fd9222;
+}
+
+.taste-descr {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.taste-list {
+}
+
+.taste-list-item {
+}
+
+.taste-image {
+}
+
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/*-------------SECTION 4 ------------ */
+
+.made-section {
+}
+
+.made-title .accent {
+  color: #fd9222;
+}
+.made-image {
+}
+
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.made-list {
+}
+
+.made-list-item {
+}
+
+.made-item-text {
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+}
+
+/*-------------SECTION 5 ------------ */
+
+.reviews {
+}
+
+.reviews-title .accent {
+  color: #fd9222;
+}
+
+.section-title {
+}
+
+.reviews-list {
+}
+
+.reviews-list-item {
+}
+
+.reviews-image {
+}
+
+.reviews-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+}
+
+.reviews-descr {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.review-button {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+
+/* =============== FOOTER ============= */
+
+.footer {
+  background-color: #1e1823;
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-title .accent {
+  color: #fd9222;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-address {
+}
+
+.footer-list {
+}
+
+.footer-item-list {
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-menu-list {
+}
+
+.footer-menu-item {
+}
+
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: #fd9222;
+}
