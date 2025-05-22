@@ -4,8 +4,23 @@ body {
   color: #111;
 }
 
-ul {
+/* ========= RESET ============ */
+
+ul,
+ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 a {
@@ -14,6 +29,20 @@ a {
 
 address {
   font-style: normal;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ========= COMMON ============ */
+
+.container {
+  max-width: 1166px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .section-title {
@@ -30,6 +59,7 @@ address {
 }
 
 .header-nav {
+  display: flex;
 }
 
 .logo {
@@ -38,14 +68,22 @@ address {
   line-height: 1.11;
   letter-spacing: -0.03em;
   color: #111;
+  padding: 32px 28px 0 28px;
 }
 .logo .accent-logo {
   font-style: italic;
 }
+
 .header-list {
+  display: flex;
+  margin-left: auto;
+  gap: 24px;
 }
+
 .header-list-item {
+  padding: 30px 0;
 }
+
 .header-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -65,6 +103,13 @@ address {
 
 .hero {
   background-color: #1e1823;
+  max-width: 1200px;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.hero-container {
+  padding: 380px 40px 40px 40px;
 }
 
 .hero-title {
@@ -73,6 +118,8 @@ address {
   line-height: 1.21;
   letter-spacing: -0.03em;
   color: #fff;
+  max-width: 484px;
+  padding-bottom: 32px;
 }
 
 .hero-button {
@@ -80,6 +127,9 @@ address {
   font-size: 14px;
   color: #fff;
   background-color: #fd9222;
+  padding: 14px 40px;
+  border-radius: 100px;
+  margin-right: 14px;
 }
 
 .hero-button:hover,
@@ -92,6 +142,9 @@ address {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
 }
 
 .hero-scroll-link {
@@ -106,16 +159,43 @@ address {
 
 .features {
   background-color: #1e1823;
+  margin-top: 72px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
+.features-container {
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .features-list {
+  display: flex;
+  gap: 70px;
 }
+
 .features-list-item {
+  width: calc((100% - 140px) / 3);
 }
+
 .features-subtitle {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  margin-bottom: 18px;
 }
+
 .features-item-text {
   font-weight: 400;
   font-size: 14px;
@@ -126,6 +206,14 @@ address {
 /* --------------SECTION 3 ------------ */
 
 .taste-section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.taste-title {
+  max-width: 411px;
+  margin: 0 auto;
+  margin-bottom: 28px;
 }
 
 .taste-title .accent {
@@ -137,15 +225,37 @@ address {
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-align: center;
+  margin: 28px 0 50px 0;
+  max-width: 486px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .taste-list {
+  display: flex;
+  gap: 19px;
 }
 
 .taste-list-item {
+  width: calc((100% - 57px) / 4);
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  padding: 28px 32px;
+}
+
+.taste-list-item:first-child {
+  background-color: #fd9222;
+  color: #fff;
+}
+
+.taste-list-item:nth-child(3) {
+  background-color: #1e1823;
+  color: #fff;
 }
 
 .taste-image {
+  border-radius: 15px;
+  margin-bottom: 36px;
 }
 
 .taste-subtitle {
@@ -159,45 +269,68 @@ address {
 /*-------------SECTION 4 ------------ */
 
 .made-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
+.made-title {
+  margin-bottom: 50px;
+}
 .made-title .accent {
   color: #fd9222;
 }
-.made-image {
+
+.made-container {
+  display: flex;
 }
 
+.made-image {
+  margin-right: 20px;
+}
+
+.made-container-text {
+  padding: 32px;
+}
 .made-subtitle {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
+  margin-bottom: 28px;
+  max-width: 350px;
 }
 
 .made-list {
 }
 
 .made-list-item {
+  list-style-type: disc;
+  margin-bottom: 24px;
+}
+
+made-list-item:last-child {
+  margin-bottom: 0;
 }
 
 .made-item-text {
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
+  max-width: 425px;
 }
 
 /*-------------SECTION 5 ------------ */
 
 .reviews {
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .reviews-title .accent {
   color: #fd9222;
 }
 
-.section-title {
-}
-
 .reviews-list {
+  display: flex;
 }
 
 .reviews-list-item {
@@ -206,11 +339,19 @@ address {
 .reviews-image {
 }
 
+.reviews-text-container {
+  background-color: #fff;
+  box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+
 .reviews-subtitle {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
   text-align: center;
+  margin-bottom: 24px;
 }
 
 .reviews-descr {
@@ -225,13 +366,28 @@ address {
   font-weight: 600;
   font-size: 18px;
   color: #111;
+  margin: 50px auto 0 auto;
+  display: block;
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 222px;
+  height: 50px;
+  background-color: #fafafa;
 }
 
 /* =============== FOOTER ============= */
 
 .footer {
   background-color: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 86px;
 }
+
+.footer-container {
+  display: flex;
+}
+
 .footer-title {
   font-weight: 500;
   font-size: 28px;
@@ -252,6 +408,10 @@ address {
   color: #fff;
 }
 
+.footer-contacts-container {
+  margin-right: auto;
+}
+
 .footer-address {
 }
 
@@ -270,6 +430,8 @@ address {
 }
 
 .footer-menu-list {
+  display: flex;
+  gap: 24px;
 }
 
 .footer-menu-item {
